@@ -1,0 +1,49 @@
+@import 'variables.scss';
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap%22');
+
+*{
+    font-family: Outfit;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: $lightgray;
+    align-items: center;
+    height: 100vh;
+}
+
+p{
+    padding: 0px 29px 40px 29px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 400;
+    color: $grayishblue;
+    &.title{
+        padding-bottom: 15px;
+        color: $darkblue;
+        font-size: 20px;
+        font-weight: 700;
+    }
+}
+
+a{
+    color: hsl(228, 45%, 44%); 
+}
+
+.card{
+    background-color: $white;
+    width: 300px;
+    height: fit-content;
+    border-radius: 15px;
+    top: 50%;
+    text-align: center;
+    img{
+        border-radius: 10px;
+        width: 90%;
+        margin: 5% 5% 5% 5%;
+    }
+}

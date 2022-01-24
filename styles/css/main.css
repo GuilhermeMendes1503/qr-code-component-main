@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap%22");
+* {
+  font-family: Outfit;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #d6e2f0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+p {
+  padding: 0px 29px 40px 29px;
+  font-size: 15px;
+  text-align: center;
+  font-weight: 400;
+  color: #7b879d;
+}
+
+p.title {
+  padding-bottom: 15px;
+  color: #1f3251;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+a {
+  color: #3e52a3;
+}
+
+.card {
+  background-color: white;
+  width: 300px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 15px;
+  top: 50%;
+  text-align: center;
+}
+
+.card img {
+  border-radius: 10px;
+  width: 90%;
+  margin: 5% 5% 5% 5%;
+}
+/*# sourceMappingURL=main.css.map */
